@@ -22,6 +22,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'mongoid', '~> 6.1.0'
 gem 'devise', '~> 4.2'
 
+gem 'aws-sdk', '~> 2.8', '>= 2.8.7'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

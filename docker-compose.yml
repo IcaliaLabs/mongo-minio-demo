@@ -66,8 +66,9 @@ services:
     environment: &app_env
       MONGOHQ_URL: mongodb://mongo:27017/mongo_minio_demo_development
 
-      STORAGE_ACCESS_KEY: AKIAIOSFODNN7EXAMPLE
-      STORAGE_SECRET_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+      AWS_S3_ENDPOINT: http://minio:9000
+      AWS_ACCESS_KEY_ID: AKIAIOSFODNN7EXAMPLE
+      AWS_SECRET_ACCESS_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
       RAILS_ENV: development
       RACK_ENV: development
